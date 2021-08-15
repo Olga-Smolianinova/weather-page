@@ -1,2 +1,2 @@
 # weather-page
-Weather Forecast App on a Front-End library or Framework React.js. 
+Weather Forecast App on a Framework React.js. 
