@@ -19,7 +19,6 @@ const fetchWeekWeather = async ({ lon = '', lat = '' }) => {
       `http:///api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely&units=metric&appid=${API_KEY}`,
     );
     const weekWeather = response.json();
-    console.log(weekWeather);
     return weekWeather;
   } catch (error) {
     throw error;
